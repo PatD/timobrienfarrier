@@ -1,0 +1,73 @@
+body {
+  font: small Palatino, Georgia, "Times New Roman", Times, serif;
+  font-size: 12px;
+  color: #333333;
+  background-color: #ffffff;
+  margin: 0px;
+  padding: 0px;
+}
+#header {
+  background-image: url("/images/header_back.gif");
+  background-repeat: repeat-x;
+  background-position: 0px 0px;
+  white-space: nowrap;
+  margin: 0px;
+  padding: 0px;
+  height: 150px;
+  width: 100%;
+}
+
+h1 {
+  visibility: hidden;
+  position: absolute;
+  left: -9999px;
+}
+
+h2 {
+  font-size: 19px;
+  color: #333333;
+}
+
+li {
+  font-size: 15px;
+  text-align: left;
+  list-style-position: outside;
+  height: 24px;
+  list-style-image: url(images/horseshoe.gif);
+  text-indent: 3px;
+  vertical-align: text-bottom;
+  padding-bottom: 3px;
+  margin-bottom: 14px;
+  width: auto;
+}
+#listbox {
+  width: 270px;
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  height: auto;
+}
+
+#content {
+  font-size: 13px;
+  background-color: #ffffff;
+  left: auto;
+  right: auto;
+  width: 550px;
+  clear: both;
+}
+img.topPhoto {
+  vertical-align: top;
+  border: 1px solid #333333;
+  margin-bottom: 30px;
+  padding-bottom: 0px;
+}
+a {
+  font-size: 16px;
+  color: #2e456b;
+  text-decoration: none;
+}
+a:hover {
+  color: #ff6600;
+  text-decoration: underline;
+}
